@@ -1,0 +1,94 @@
+body{
+	background-image: url('../images/tools.jpg');
+	color: #555;
+	font-family: Aerial, Helvetica, Sans-sarif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+#main-header{
+	background-color: #fff;
+	color: #000080;
+	text-align: center;
+	padding: 10px;
+}
+
+#main-header h1{
+	font-size: 50px;
+	font-family: "Trebuchet MS", Helvetica, Sans-sarif;
+}
+
+#main-footer{
+	background: #f4f4f4;
+	color: #555;
+	text-align: center;
+	padding: 5px;
+	margin-top: 40px;
+}
+
+#parent{
+	margin: auto;
+	padding: 10% 0 0;
+	display: table;
+	width: 360px;
+}
+
+#my-form{
+	position: relative;
+	z-index: 1;
+	background: #fff;
+	padding: 10px;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	text-align: center;
+	border-radius: 15px;
+   
+}
+
+.form-group label{
+	display: block;
+	color: #333;
+	font-weight: bold;
+}
+
+.form-group input{
+	font-family: "Roboto", Sans-sarif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 80%;
+	border: 0;
+	padding: 10px;
+	margin: 0 0 15px;
+	background-size: border-box;
+	font-size: 14px;
+	border-radius: 15px;
+
+}
+
+#my-form button{
+	font-family: "Roboto", Sans-sarif;
+	outline:0;
+	background: #4CAF50;
+	width: 85%;
+	border: 0;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+	margin-bottom: 15px;
+	border-radius: 15px;
+}
+
+#my-form button:hover{
+	background-color: red;
+	color: #fff;
+}
+
+#my-form .message a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
