@@ -46,6 +46,11 @@ body{
    
 }
 
+.user-type{
+	margin-bottom: 20px;
+	background: #f2f2f2;
+}
+
 .form-group label{
 	display: block;
 	color: #333;
@@ -64,6 +69,15 @@ body{
 	font-size: 14px;
 	border-radius: 15px;
 
+}
+
+.clr{
+	clear: both;
+}
+
+.form-group .block{
+	float: left;
+	width: 50%;
 }
 
 #my-form button{
@@ -89,6 +103,9 @@ body{
 	text-decoration: none;
 }
 
+.container{
+	background-image: url('../images/billionphotos.jpg');
+}
 a:hover{
 	color: red;
 }
