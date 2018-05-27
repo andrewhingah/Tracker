@@ -109,3 +109,44 @@ body{
 a:hover{
 	color: red;
 }
+
+.categories{
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+	position: relative;
+	z-index: 1;
+	background: #fff;
+	padding: 10px;
+	max-width: 360px;
+	margin: 100px auto 100px;
+
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	list-style: none;
+}
+
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted;
+	text-align: center;
+}
+
+button{
+	font-family: "Roboto", Sans-sarif;
+	outline:0;
+	background: #4CAF50;
+	width: 30%;
+	border: 0;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+	margin: 15px;
+	border-radius: 15px;
+}
