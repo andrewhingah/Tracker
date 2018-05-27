@@ -24,7 +24,6 @@ body{
 	color: #555;
 	text-align: center;
 	padding: 5px;
-	margin-top: 40px;
 }
 
 #parent{
@@ -57,7 +56,7 @@ body{
 	font-weight: bold;
 }
 
-.form-group input{
+#description, .form-group input{
 	font-family: "Roboto", Sans-sarif;
 	outline: 1;
 	background: #f2f2f2;
@@ -149,4 +148,33 @@ button{
 	cursor: pointer;
 	margin: 15px;
 	border-radius: 15px;
+}
+
+#my-table{
+	background: #fff;
+
+}
+#customers{
+	font-family: "Trebuchet MS", Aerial, Helvetica, Sans-sarif;
+	border-collapse: collapse;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 120px;
+}
+
+#customers td, #customers th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover{
+	background-color: #ddd;
+}
+
+#customers th{
+	text-align: left;
+	background: #4CAF50;
+	color: #fff;
 }
