@@ -1,5 +1,7 @@
 body{
-	background-image: url('../images/tools.jpg');
+	background-image: url('../images/tools3.jpg');
+	background-repeat:no-repeat;
+    background-size: cover; 
 	color: #555;
 	font-family: Aerial, Helvetica, Sans-sarif;
 	font-size: 16px;
