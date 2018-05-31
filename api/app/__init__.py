@@ -16,7 +16,7 @@ def create_app(config_name):
 
 @app.route('/userRequests/', methods = ['POST', 'GET'])
 def userRequests ():
-	if request.method == 'POST':
+	if request.method == 'POST': #POST
 		name = str(request.data.get('name', ''))
 		if name:
                 userRequest = UserRequest(name=name)
