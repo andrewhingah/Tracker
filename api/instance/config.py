@@ -1,6 +1,6 @@
 import os
 class Config(object):
-	Debug=False
+	DEBUG=False
 	CSRF_ENABLED=True
 	SECRET=os.getenv('SECRET')
 
