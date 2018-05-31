@@ -1,0 +1,11 @@
+# Environments
+.env
+.venv
+api/env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+api/app/__pycache__/
+api/instance/__pycache__/
