@@ -42,7 +42,7 @@ class User_req_testcase (unittest.TestCase):
         results = self.client().get('/userRequests/1')
         self.assertIn('flat tires', str(results.data))
 
-    def test_bucketlist_deletion(self):
+    def test_delete_request(self):
         """Test API can delete an existing request. (DELETE request)."""
         rv = self.client().post(
             '/userRequests/',
@@ -57,5 +57,5 @@ class User_req_testcase (unittest.TestCase):
     def tearDown(self):
 
 # Make the tests executable
-    if __name__ == "__main__":
-        unittest.main()
+if __name__ == "__main__":
+    unittest.main()
