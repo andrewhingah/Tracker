@@ -4,10 +4,10 @@ from marshmallow import Schema, fields, post_load
 
 user_requests = [
 
-    {'user1':['car', 'engine replacement']},
-    {'user2':['iphone7', 'black screen']},
-    {'user3':['house112', 'painting']},
-    {'user4':['windows 10 laptops', 'windows updates and virus protection']}
+    {'request1':['car', 'engine replacement']},
+    {'request2':['iphone7', 'black screen']},
+    {'request3':['house112', 'painting']},
+    {'request4':['windows 10 laptops', 'windows updates and virus protection']}
     
 ]
 
