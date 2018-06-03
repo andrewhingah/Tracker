@@ -1,29 +1,3 @@
-import os
-class Config(object):
-	DEBUG=False
-	CSRF_ENABLED=True
-	SECRET=os.getenv('SECRET')
+#disable flask debuging features.
 
-class DevelopmentConfig(Config):
-	"""configurations for development"""
-	DEBUG=True
-
-class TestingConfig(Config):
-	TESTING = True
-	DEBUG = True
-
-class StagingConfig(Config):
-    #Configurations for Staging#
-    DEBUG = True
-
- class ProductionConfig(Config):
- 	DEBUG = False
- 	TESTING = False
-
-app_config = {
-    'development': DevelopmentConfig,
-    'testing': TestingConfig,
-    'staging': StagingConfig,
-    'production': ProductionConfig
-   
-}
+DEBUG = False
