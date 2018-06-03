@@ -2,7 +2,7 @@
 
 import json
 import unittest
-from api.app import UserRequest
+from app import UserRequest
 
 
 class TestUserAuth(unittest.TestCase):
