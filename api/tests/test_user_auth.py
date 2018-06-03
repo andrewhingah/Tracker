@@ -2,15 +2,15 @@
 
 import json
 import unittest
-from api.app import UserRequest
+from api.app import user_requests
 
 
 class TestUserAuth(unittest.TestCase):
     """handles Auth Endpoint test"""
 
     def setUp(self):
-        UserRequest.testing = True
-        self.app = UserRequest.test_client()
+        user_requests.testing = True
+        self.app = user_requests.test_client()
         self.data = {
             "username": "Andrew",
             "password": "password"
