@@ -1,7 +1,7 @@
 from flask_restful import Resource, abort, reqparse
 
 user_requests = {
-    'request1': {'title': 'Office furniture', 'description':'Cleaning, Repair, Painting'},
+    'request1': {'title': 'Office furniture','description':'Cleaning, Repair, Painting'},
     'request2': {'title': 'Air Conditioners', 'description':'Repair and replacement'},
     'request3': {'title': 'Washrooms', 'description':'Repair and replacement of toilet bowls'},
 }
